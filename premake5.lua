@@ -24,7 +24,7 @@ project "ImGui"
 	}
     
     includedirs {
-        "%{Includedir.ImGui}",
+        "%{prj.location}",
     }
 
 	filter "system:windows"
